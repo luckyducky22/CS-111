@@ -1,0 +1,83 @@
+Efficiency Analysis:
+	1. identiy input size
+		ex size of quantity (number of songs in an album) 
+	2. determine what to count
+		count operations that happen frequenty and take a long time to do
+	3. determine best case, worst case 
+
+In comp sci, drop the constants 
+	ex: f(n)= n^2+n+5
+		the 0 ("Big 0") is n^2
+		n^2 is what matters most in the equation
+
+
+Algorithm Linear Search:
+
+	3|2|8|6|1|4
+	To search for the number 8 in linear search: 
+	compare the number 8 with every number starting from the beginning. 
+	Efficiency Analysis:
+		1. input size: n=size of the array 
+		2. what to count: # of comparisons (==, if statements) 
+		3. best case: 
+			if the 8 is in at arr[0] 
+			f(n) =1 (only 1 comparison is made)
+		    worst case: 
+			if the 8 is not there or it is in the last spot 
+	
+	public boolean search(Song s)
+		{
+		for (int i=-;i<tracks.length;i++)
+			{
+			if (tracks[i].equals(s)
+			return true;
+			
+			}
+			return false;
+
+		}
+
+
+
+- toString methods take in zero parameters 
+
+public String toString()
+{
+	return title +" " +artist;
+}
+
+
+To put array numbers in order (ascending order sort): 
+Selection Sort 
+	1. input size: size of the array
+	2. what to count: # of comparisons
+	3. best case:
+		array is already in order 
+	    worst case:
+		the lowest numbers are at the end 
+
+
+
+---------------------------------------------------------------------------------------
+day 2
+
+selection sort, insertion sort 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

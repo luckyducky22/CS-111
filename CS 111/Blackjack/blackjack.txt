@@ -1,0 +1,24 @@
+To loop my program: 
+
+-In my main method, I will use if statements for when the user decides to "hit" and every time they do, I will have a counter that increases by 1 or depending on how many players there are
+in the game( if two players are there and they each say hit, then the counter will increase by 2. Likewise for if there are three players or just one). 
+
+a. The main loop will have a while loop that continues to run until either there is only one player left that has not gone over 21, all playes are over 21, or when there are no more cards left in the deck. 
+b. To figure out who wins, there will be a variable that stores each persons sum of the cards they have. This will then be compared to the number 21. Once all the players are 
+done by either standing or busting, the ones still in the game will have their sum value compared to that of the dealers after the dealer plays his turn. Whoever has the highest number without going over 21 will 
+have a point that is stored in a variable. After the round is done, the winner will be announced. 
+c. Each player will be asked to bid a certain amount which will have an if statement to check whether they have money in the first place. There will be another if statement that checks if the player loses, then 
+the player will lose money (The amount will be subtracted from the variable that represents their balance). If they win again the dealer, then the money will be added to the variable  
+d. If there were more than 2 players, I would have to account for having a variable for each of their balances. I would also have to make sure I add one value to my count (mentioned earlier) for each person in the 
+game that is still playing and taking another card. 
+-Error condtions: 	If I ask the user for how many players and they enter less than 1 
+		If the user runs out of money 
+		If there are no more cards left to deal 
+
+
+Flow Chart:
+
+Start -> ask how many people are playing -> ask each player to make a bid -> give each player a card -> give dealer a card -> ask each player if they want to hit 				-> once there is one player left, dealer starts adding until reach value of 17				->state who wins -> stop game 
+												if yes: give card and check if bust					if goes over: deal loses, player wins and gets his bid 
+													if bust: player loses and is out of game and they lose their bid 		if dealer reaches 17 or higher without bust: compare dealers cards with player
+												if no: move on to next player							if dealer has higher, dealer wins and player loses bid. else player wins bid 

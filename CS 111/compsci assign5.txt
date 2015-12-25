@@ -1,0 +1,76 @@
+Problem 1: 
+1. trace using selection sort
+M U E J R Q X B
+B  U E J R Q X M - 7 COMPARISONS
+B E  U J R Q X M - 6 COMPARISONS
+B E J  U R Q X M - 5 COMPARISONS
+B E J M  R Q X U - 4 COMPARISONS
+B E J M Q  R X U - 3 COMPARISONS
+B E J M Q R  X U - 2 COMPARISON 
+B E J M Q R U X - 1 comparison
+
+2. trace using insertion sort 
+[] [M U E J R Q X B]
+[M] [U E J R Q X B] - 0 COMPARISONS
+[M U] [E J R Q X B] - 1 COMPARISON
+[E M U] [J R Q X B] - 2 COMPARISONS
+[E J M U] [R Q X B] - 3 COMPARISONS
+[E J M Q R U] [X B] - 3 COMPARISONS
+[E J M Q R U X] [B] - 1 COMPARISONS
+[B E J M Q R U X] [] - 7 COMPARISON
+
+
+
+
+
+problem 2:
+
+
+
+a)Determine if 2 arrays contain the same elements
+1. for int 1 to end of loop
+	if array1[x] == array2[x] 
+		count =0;
+	else count =1;
+	if count ==0 then both arrays are same. else they are not the same
+2. 	 i)The amount of memory in the arrays  (A)
+	ii) the type of data in each array (whether they are strings,characters, or numbers). (C)
+ This can be known before the code is executed.  
+3. Each comparison of 2 elements is counted. 
+4. A^2 
+5. Best case: if each array is exactly identical in the elements and the spots that they are in.
+   Worst case: if each array has different elements and not in the same spots as each other. 
+6. O(n^2) 
+----------------
+
+b) Counting total number characters that have a duplicate within a string 
+(i.e. "gigi the gato" would result in 7 (g x 3 + i x 2 + t x 2)
+
+1.for 1 to last element in array
+	if at x == another spot in array 
+		count variable increases 
+	print out letter and how much of that letter if its count is not equal to 0 or 1. 
+
+
+
+2. the amount of memory in the string (A) 
+3. Each comparison of 2 elements is counted
+4. a^2
+5. best case: if all letters are same 
+   worst case: if all letters ae different with no repeats 
+6. O(n^2) 
+
+----------------
+
+c) Finding an empty row in a 2-D array where empty is defined as an element with a 0 entry.
+1. nested loop 
+	if all of row is filled with zero, then count is equal to current row.
+
+
+
+2. the number of elements in the array [a] 
+3. compare each element to the number zero. each comparison of 2 elements is counted.
+4. a^2
+5. best case: if first row all columns are with zero.
+   worst cas: if last row has all zeros or none of the rows are all zeros 
+6. O(n^2)

@@ -1,0 +1,7 @@
+- for insurance, I would do it the same as my wagering system. I would have them have an insurance that makes them loose
+ only half the amount they bet once the round is over. For a hint system, i would give hints such as if they have cards 
+valued at anything under 17 to keep hitting. Or if they are maybe 5 away to hit for another card. If they are at 17 or over, I 
+would advise not get more cards. I would give them a probability of how likely they are to get a certain card that they need 
+to get to 21 or close. 
+
+

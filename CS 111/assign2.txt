@@ -1,0 +1,43 @@
+Problem One Analysis and Test cases:
+Question:Ask the user for a number of judges and each of their scores. Then find the average of the scores excluding the highest and lowest scores. 
+
+
+Input # of judges, each of their scores		Expected Output						Output 
+3, 5,6,3						5						5
+-2					"you cannot have a negative number of judges. enter again"		"you cannot have a negative number of judges. enter again"
+2.5					"That is not an integer. enter again"				"That is not an integer. enter again"
+score of above 10 or less than 			"User entered bad input"					"User entered bad input"
+error conditions: 
+Number of judges input cannot be a negative or a double number or char or string or number of judges need to be more than 2 
+output of error: "That is not an integer. enter again" 
+______________________________________________________________________________________________________________________________________________
+
+Problem Two Analysis and Test cases:
+Question: Ask the user for a termintating value and a sequence of numbers until that value is reached. Then determine which two numbers are the smallest. 
+
+Input terminating value, rest of sequence		Expected Output						Output 
+4,1,2,3,4					"the smallest and second smallest numbers are 1 and 2"		"the smallest and second smallest numbers are 1 and 2"
+-5,-2,3,2,-5				"the smallest and second smallest numbers are -5 and -2"		"the smallest and second smallest numbers are -5 and -2"
+
+error conditions:
+input cannot be a char or string
+output of error: "That is no	 an integer. enter again" 
+______________________________________________________________________________________________________________________________________________
+
+Problem Three Analysis and Test cases:
+Question: Ask the user for a value n and compute the nth prime number
+
+Input n number		Expected Output		Output 
+10			29			29
+4			7			7
+
+error conditions:
+input cannot be negative number or char or string or double 
+output of error: "That is not an integer. enter again" 
+	
+
+
+
+
+
+

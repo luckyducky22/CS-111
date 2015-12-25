@@ -1,0 +1,152 @@
+Andew Tjang 
+atjang@cs.rutgers.edu
+Office: HLL407 Hours: Tues Thurs 3:30-4:30 
+
+need to get turing's Craft Codelab - $20 a semester 
+
+Intro to computer science:
+
+Computer Model: Von Neumann Model:
+- basic model of a computer architecture
+- Processing unit
+	-ALU and processor registers
+	-Control Unit: Program Counter and Intruction Register 
+	-Memory: holds data and instructions 
+-Input and output devices
+	-Human Interface (mouse, keyboard, screen, etc)
+-Storage
+-Networking
+-Graphics 
+
+
+
+How programs and data are stoed: Binary System
+How cmputers are built: Logic Gates 
+Frm higher level languages to machine language 
+
+fetch (PC++), decode, execute 
+
+arithmetic: +,-,*,/ 
+Logic: bre, jmp 
+
+How data is stored:
+-Computers use the binary system to represent data
+-All data from numbers, alphabet to images are represented using the binary system
+	-register file, disk, memory, network 
+
+bits are by powers of 2 
+
+11010 
+
+1s place: 2^0 *0= 0
+second place: 2^1 *1=2 
+third place: 2^2 *0 = 0 
+2^3 *1 = 8 
+2^4 * 1 = 16 
+
+2+8+16 = 26  That is value of binary number 
+
+This process is the same for any system (hexadecimal, etc) 
+
+How many things can i represent with n bits? 2^n is the number of things
+the numbers represented are (2^n) -1 (subract one to account for the zero) 
+
+Bit: 0,1
+Byte: sequence of 8 bits ( 8 bits of data, 8 zeros and 1's) 
+How many bits is this? 2^8 = 255 
+
+Kilo: 1000  
+Mega: 1,000,000
+Tera: 
+Peta:
+
+10 Mbits/s 
+10 MB/s 
+
+
+Logical Values:
+True or False 
+
+Logical Operators: 
+NOT 
+AND
+OR 
+
+
+ANd and or are binary operators 
+
+
+A 	Not A 			A = having red M&ms 
+-------------			Not A: flips A, opposite of A 
+T	F			
+F	T
+
+
+
+
+
+A 	B 	A and B 
+--------------------			B = having green m&Ms 
+F	F	F
+T	F 	F 
+F	T	F 
+T	T	T
+
+
+
+A	B	A or B 
+-------------------------
+T	F	T
+F	T	T
+T	T	T
+F	F	F 
+
+
+
+A	B	C 	ABC 	AoBoC	((A&b) o c) 
+------------------------------------------------
+T	T	F	F	T	T	
+T	T	T	T	T	T	
+T	F	F	F	T	F	
+T	F	T	F	T	T	
+F	T	F	F	T	F
+F	T	T	F	T	T
+F	F	F	F	F	F
+F	F	T	F	T	T
+
+
+
+The Programming Process: 
+1. Problem analysis 
+	-inputs, outputs, error conditions
+2. Program Design 
+3. Algorithm Construction 
+	- will use flowcharts 
+4. Coding 
+	- will use a programming language (java)
+5. Testing 
+
+
+Compilation: a tranlator for computer processes 
+
+.java = source code file 
+compiler error: error that occurs during compilation 
+runtime errors: errors occur when program is run; something is not logically correct 
+
+Explicit Type Cast: 
+x = (int) y 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,38 @@
+-For my project, I made arrays that aligned each person's information with their place values in the array. (ie. 
+my first player's card value sum is in spot 1 of that array and his bet is in spot 1 of my bet array. )
+
+-I begin by telling my players they have 100 dollars to start and ask them if they want hints throughout the game. 
+
+-I then ask how many players there are and each of their bets 
+-I first have a for loop that goes through my number of players 
+
+-In the for loop have do while loop that gives them a new card and continues until all the players have either busted or folded
+ 
+	-in this loop, i give them option to split if they have the same 2 cards 
+	- i also give them the option of doubling down. This then doubles their original bet and it becomes the next persons
+	  turn
+Once the for loop is done, the dealer turns over his card and if he gets an Ace, then all the players are given insurance 
+The insurance means if the players lose, they will only lose half of their bet. If they win, they win the same amount they had 
+originally made a bet on. 
+Then the dealer keeps getting cards until he reaches at least 17 
+If he goes over, the other players win. If not he wins and the players lose their bet amount.  
+
+At the end, the user is asked if they want to play again 
+
+
+All of my code is in a method called Play() in my Blackjack class file. I call the method in my main method 
+
+For my hint system, I found my probabilities from this site: http://www.blackjacktactics.com/blackjack/odds/ 
+I assigned my cards according to the values mentioned on this site under card counting: https://en.wikipedia.org/wiki/Blackjack#Card_counting
+
+
+I had many challenges during this project. At first I had to make sure all of my arrays were aligned or else my values 
+of bets and who made it would be incorrect. I also had difficulty understanding classes and how to access cards that were of a 
+deck. For milestone 3, I had to look up what spliiting a deck and doubling down meant before coding. Receiving these 
+requirements that we had to impletemt into our code after we already coded our program was difficult because it caused me to 
+change up the code I already had. 
+
+This project made me learn how to connect my classes and how to access elements in the classes. 
+
+
+

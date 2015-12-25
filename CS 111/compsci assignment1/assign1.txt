@@ -1,0 +1,49 @@
+
+Problem One Analysis and Test cases:
+Question:Ask the user for 2 integers and output the sum of those 2 numbers.
+
+InputNum1 and Num2	Expected Output		Output 
+
+1,2				3		3
+100,200				300		300
+-1,2				1		1	
+-4,-5				-9		-9
+
+error conditions:
+Input 1.0,2.0 = The numbers are doubles and not both integers 
+Input .0,2  = The numbers are not both integers 								
+Input a,b = The input is a character and not integer 
+Input cat, dog = The input is a string and not integer 
+
+Expected output and output of above ^ : That is not an integer. Enter again: 								
+___________________________________________________________________________________________________	
+
+Problem Two Analysis and Test Cases: 
+Ask the user for 3 roots and output the polynomial of it. 
+
+Input root 1,2,3 		Expected Output		Output 
+5,-3,2			x^3 - 4x^2 - 11x +30 	x^3 -4x^2 + -11x +30
+-2,-2,-2			x^3 +6x^2 +12x +8		x^3 +6x^2 +12x +8
+0,0,3			x^3- 3x^2			x^3- 3x^2 +0x+0
+
+error conditions: 
+any char, double, string will output "That is not an integer. Enter again:" 
+
+___________________________________________________________________________________________________
+
+Problem 3 Analysis and Test Cases:
+Ask the user for constant values in a quadratic equation and linear equation and output the intersections of the two lines. 
+
+					Inputs d,f,g,m,b 		Expected Output							Output 
+2 intersections 	(x^2-x-12) & (x+3)		1,-1,-12,1,3		intersection at (5.0,8.0) and (-3.0,0.0)					intersection at (5.0,8.0) and (-3.0,0.0)
+Same line		(0x^2 +4x+3) & (4x+3) 	0,4,3,4,3			They are the same line and so there is an infinite number of intersections		They are the same line and so there is an infinite number of intersections
+Parallel lines	(0x^2 -2x+5) & (-2x +7)	0,-2,5,-2,7		They are parallel lines and so there are no intersections			They are parallel lines and so there are no intersections
+One intersection	(x^2 -3x -4) & (x-8)		0,-3,4,1,-8		There is only 1 intersection and that is at (2.0,-6.0)				There is only 1 intersection and that is at (2.0,-6.0)
+No intersections 	(x^2-x-6) & (x-10)		1,-1,-6,1,-10		There are no intersections						There are no intersections 
+
+error conditions: 
+any char, double, string will output "That is not an integer. Enter again:" 
+
+
+
+						
